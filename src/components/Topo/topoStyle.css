@@ -17,8 +17,13 @@ a {
     font-size: 18px;
     color: #000;
     text-decoration: none;
-    padding: 5px;
+    padding: 6px;
     margin: 0 5px;
+}
+
+a:hover {
+    border-bottom: 1px solid blue;
+    transition: 0.3s
 }
 
 @media(max-width: 550px) {
